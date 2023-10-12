@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section>
+        <div class="input">
+            <label for="userNumbers" class="first_label">
+                Введите числа (через запятую)
+            </label>
+            <input id="userNumbers" type="text" name="userNumbers" placeholder="Введите числа">
+        </div>
+        <div class="btn">
+            <button onclick="sum()">1</button>
+            <button onclick="multiply()">2</button>
+            <button onclick="even()">3</button>
+            <button onclick="odd()">4</button>
+            <button onclick="unique()">5</button>
+            <button onclick="positive()">6</button>
+            <button onclick="negative()">7</button>
+            <button onclick="larger()">8</button>
+            <button onclick="under()">9</button>
+            <button onclick="evenPosition()">10</button>
+        </div>
+        <div class="answer">
+            <div class="title">Результат</div>
+            <div id="box"></div>
+        </div>
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>
